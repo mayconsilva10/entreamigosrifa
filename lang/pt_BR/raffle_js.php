@@ -1,0 +1,57 @@
+<?php
+
+/*
+| Textos usados pelo JavaScript da página da rifa (resources/js/raffle.js).
+| Enviados ao navegador em window.__RAFFLE__.i18n; no JS: t('chave', {param}) e tc('chave', n, {param}).
+| Placeholders no estilo Laravel (:param). Plural: "singular|plural" (escolhido por tc()).
+| Também podem ser usados no template via {{t:raffle_js.chave}} (texto inicial antes do JS).
+*/
+return [
+    'and' => 'e',
+    'numbers_word' => 'número|números',
+    'reserved_count' => ':count reservado|:count reservados',
+    'state_D' => 'disponível',
+    'state_R' => 'reservado',
+    'state_U' => 'pago',
+    'state_S' => 'selecionado',
+    'state_M' => 'reservado por você',
+    'number_aria' => 'Número :number, :state',
+    'band_sold_out' => 'esgotada',
+    'band_free' => ':count livre|:count livres',
+    'band_low' => 'Só :count livre nesta faixa|Só :count livres nesta faixa',
+    'band_empty' => 'Faixa esgotada',
+    'search_range' => 'Digite um número de :from a :to.',
+    'search_taken_suggest' => 'O :number já tem dono 😅 O :suggestion está livre — quer ele?',
+    'search_taken_none' => 'O :number já tem dono 😅 e não há mais números livres.',
+    'numbers_count' => ':count número|:count números',
+    'packs_aria' => 'Quantos números',
+    'pack_popular' => '🔥 Mais escolhido',
+    'qty_label' => 'Quantidade de números',
+    'qty_less' => 'Menos um número',
+    'qty_more' => 'Mais um número',
+    'lucky_go' => 'Sortear :count número · :total|Sortear :count números · :total',
+    'random_done' => 'Escolhemos :count número pra você 🍀|Escolhemos :count números pra você 🍀',
+    'random_none' => 'Não há mais números livres.',
+    'remove_number' => 'Remover número :number',
+    'pay_label' => 'PAGAR RIFA · :total',
+    'pick_at_least_one' => 'Escolha ao menos 1 número',
+    'live_summary' => ':count número, total :total|:count números, total :total',
+    'rules_show' => 'Ver descrição e regulamento completo',
+    'rules_hide' => 'Ocultar regulamento',
+    'drawer_lookup' => 'Consultar meus números',
+    'drawer_pay' => 'Finalizar compra',
+    'btn_lookup' => 'Ver meus números',
+    'btn_continue' => 'Continuar',
+    'invalid_phone' => 'Informe um telefone válido com DDD.',
+    'ask_name' => 'Como podemos te chamar?',
+    'generic_error' => 'Não foi possível continuar. Tente novamente.',
+    'offline' => 'Sem conexão. Verifique sua internet e tente de novo.',
+    'reserve_failed' => 'Não foi possível reservar. Tente novamente.',
+    'conflicts' => 'Ops! Alguém acabou de pegar o :numbers. Removemos do seu carrinho.',
+    'none_reserved' => 'Nenhum número pôde ser reservado. Escolha outros números.',
+    'payment_confirmed' => 'Pagamento confirmado! Você concorre com :numbers. Sorteio em :date.',
+    'pix_copied' => 'Código Pix copiado!',
+    'share_text' => 'Ajude seu amigo nesta rifa!',
+    'link_copied' => 'Link copiado!',
+    'copy_link_prompt' => 'Copie o link da rifa:',
+];

@@ -1,0 +1,1 @@
+<a href="{{link}}" target="_blank"><i class="{{icon}}"></i></a>
